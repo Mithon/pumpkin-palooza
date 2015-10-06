@@ -305,4 +305,20 @@ img {
 		display: inline-block;
 	}
 
+	.contact p {
+		font-size: 2em;
+		font-weight: bold;
+		color: #4A4A4A;
+	}
+
+	.contact {
+		padding-bottom: 130px;
+	}
+
+	.brown-section h2  {
+		margin-left: 10px;
+	}
+
+
+
 }
