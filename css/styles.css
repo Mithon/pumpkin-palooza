@@ -48,3 +48,261 @@ table {
 }
 
 /* Start of CSS */
+
+/* Text Styles */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:700);
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+
+}
+
+/* Top section */
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+	font-weight: 700;
+	font-family: 'Merriweather', serif;
+	color: #4A4A4A;
+}
+
+header {
+	padding-top: 50px;
+    height: 500px;
+    background-color: #F79660;
+    width: 100%;
+}
+
+img {
+	background-image: url("../images/pumpkins.jpg");
+	background-size: cover;
+}
+
+.top-info {
+	display: -webkit-flex;
+  	display: flex;
+	max-width: 550px;
+}
+
+.top-info img {
+    height: inherit;
+    width: 250px;
+    background-color: #fff;
+}
+
+.top-info ul {
+	-webkit-flex: 1;
+          flex: 1;
+}
+
+.top-info ul li {
+	margin: 0 0 10px 20px;
+}
+
+.top-info h3 {
+	display: inline-block;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.top-info h2 {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.head-contain {
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+	margin:auto;
+    max-width: 960px;
+    height: inherit;
+    width: 100%;
+}
+
+/* About section */
+
+.about {
+	display: -webkit-flex;
+  	display: flex;
+}
+
+.about img {
+	width: 50%;
+	background-color: rgba(247, 150, 96, 0.5);
+}
+
+.about-text {
+	width: 50%;
+	padding-bottom: 80px;
+}
+
+.about-text p {
+	line-height: 1.4;
+	font-size: 1em;
+	padding: 0 50px 40px 70px;
+	max-width: 385px;
+}
+
+.about-text h2 {
+	padding: 70px 0 40px 70px;
+}
+
+/* Booths and speakers sections */
+
+.brown-section {
+	padding-top: 40px;
+	background-color: #5E4A41;
+	width: 100%;
+	height: auto;
+}
+
+.brown-section h2  {
+	color: #4A4A4A;
+	background-color: #fff;
+	display: inline-block;
+	padding: 15px;
+	margin-left: 50px;
+}
+
+.list {
+	overflow: auto;
+	max-width: 95%;
+	padding: 30px;
+	padding-right: 0;
+	padding-bottom: 60px;
+}
+
+.activity-list li {
+	background-color: #F79660;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 30px;
+	margin: 20px;
+}
+
+.speaker-list li {
+	background-color: #F79660;
+	width: 100px;
+	height: 150px;
+	float: left;
+	padding: 30px;
+	margin: 20px;
+}
+
+/* Info Section */
+
+.info-section {
+	display: -webkit-flex;
+	display: flex;
+	background-color: #F79660;
+}
+
+.contact {
+	width: 50%;
+	padding-bottom: 80px;
+}
+
+.contact ul {
+	padding: 70px;
+}
+
+.contact h2, .contact p, .contact a, .contact address {
+	background-color: #fff;
+	padding: 15px;
+	display: inline-block;
+}
+
+.contact p {
+	font-size: 3em;
+	font-weight: bold;
+	color: #4A4A4A;
+}
+
+.contact li {
+	padding-bottom: 20px;
+}
+
+.contact a {
+	text-decoration: none;
+	color: #3397ff;
+}
+
+.map {
+	width: 50%;
+	background-image: url("../images/map.png");
+	background-size: cover;
+	background-position: center;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 840px) {
+
+	.info-section {
+		display: block;
+	}
+
+	.contact, .map {
+		width: 100%;
+		display: inline-block;
+		height: 390px;
+	}
+
+	.about-text p {
+		padding: 0 40px 40px 50px;
+	}
+
+	.about-text h2 {
+		padding: 50px 0 40px 50px;
+	}
+
+}
+
+@media screen and (max-width: 620px) {
+
+	.about img, .top-info img {
+		display: none;
+	}
+
+	.about-text {
+		width: 100%;
+	}
+
+	.top-info ul {
+		max-width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 550px) {
+
+	.list {
+		overflow-x: scroll;
+		white-space: nowrap;
+	}
+
+	.list li {
+		float: none;
+		display: inline-block;
+	}
+
+}
