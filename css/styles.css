@@ -86,8 +86,9 @@ header {
 }
 
 img {
-	background-image: url("../images/pumpkins.jpg");
+	background-image: url("../images/pumpkin.jpg");
 	background-size: cover;
+ 	height: 100%;
 }
 
 .top-info {
