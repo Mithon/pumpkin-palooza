@@ -164,6 +164,14 @@ img {
 	padding: 70px 0 40px 70px;
 }
 
+.pumpkins {
+	background-image: url("../images/pumpkin.jpg");
+	background-size: cover;
+ 	height: 100%;
+	width: 50%;
+	background-color: rgba(247, 150, 96, 0.5);
+}
+
 /* Booths and speakers sections */
 
 .brown-section {
