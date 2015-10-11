@@ -167,7 +167,8 @@ img {
 .pumpkins {
 	background-image: url("../images/pumpkin.jpg");
 	background-size: cover;
- 	height: 100%;
+	background-position: center;
+ 	height: inherit;
 	width: 50%;
 	background-color: rgba(247, 150, 96, 0.5);
 }
@@ -199,12 +200,39 @@ img {
 
 .activity-list li {
 	background-color: #F79660;
-	border-radius: 50%;
-	width: 150px;
-	height: 150px;
+	border-radius: 200px 200px 10px 10px;
+	width: 220px;
 	float: left;
-	padding: 30px;
+	padding: 5px;
+	padding-bottom: 20px;
 	margin: 20px;
+}
+
+.activity-list li img {
+	border-radius: 50%;
+	height: 220px;
+}
+
+.booth-desc {
+	padding: 10px 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.booth-desc h3 {
+	background-color: #fff;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	padding: 8px 10px;
+	width: 90%;
+	text-align: center;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.booth-desc p {
+	padding: 8px;
+	font-weight: 400;
 }
 
 .speaker-list li {
@@ -214,6 +242,22 @@ img {
 	float: left;
 	padding: 30px;
 	margin: 20px;
+}
+
+details {
+	position: absolute;
+	background-color: #fff;
+	padding: 5px 10px;
+	font-weight: 600;
+	font-size: 0.7em;
+	display: inline-block;
+	max-width: 189px;
+	transition: all 2s ease;
+}
+
+details p {
+	font-size: 1.3em;
+	line-height: 1.3;
 }
 
 /* Info Section */
@@ -288,7 +332,7 @@ img {
 
 @media screen and (max-width: 620px) {
 
-	.about img, .top-info img {
+	.pumpkins, .top-info img {
 		display: none;
 	}
 
