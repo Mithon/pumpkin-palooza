@@ -362,6 +362,10 @@ details p {
 		white-space: nowrap;
 	}
 
+	.desc {
+		display: inline-block;
+	}
+
 	.list li {
 		float: none;
 		display: inline-block;
