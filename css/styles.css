@@ -204,7 +204,6 @@ img {
 	width: 220px;
 	float: left;
 	padding: 5px;
-	padding-bottom: 20px;
 	margin: 20px;
 }
 
@@ -244,8 +243,18 @@ img {
 	margin: 20px;
 }
 
-details {
-	position: absolute;
+.d-open:focus ~ .desc {
+	display: inline-block;
+}
+
+.desc {
+	padding: 5px;
+	background-color: #fff;
+	display: none;
+	margin-top: 10px;
+}
+
+.d-open {
 	background-color: #fff;
 	padding: 5px 10px;
 	font-weight: 600;
