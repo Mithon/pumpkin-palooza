@@ -247,10 +247,6 @@ img {
 	display: block;
 }
 
-.d-open:focus ~ poop {
-	display: none;
-}
-
 .desc {
 	position: relative;
 	width: 199px;
