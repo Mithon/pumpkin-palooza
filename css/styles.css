@@ -248,12 +248,13 @@ img {
 }
 
 .desc {
-	width: 200px;
 	position: absolute;
+	width: 199px;
 	padding: 5px;
 	background-color: #fff;
 	display: none;
-	margin-top: 14px;
+	margin-top: -20px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .d-open {
@@ -369,6 +370,7 @@ details p {
 	.list li {
 		float: none;
 		display: inline-block;
+		white-space: normal;
 	}
 
 	.contact p {
