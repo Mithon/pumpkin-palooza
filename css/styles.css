@@ -248,6 +248,8 @@ img {
 }
 
 .desc {
+	width: 200px;
+	position: absolute;
 	padding: 5px;
 	background-color: #fff;
 	display: none;
