@@ -130,7 +130,7 @@ img {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-	margin:auto;
+		margin:auto;
     max-width: 960px;
     height: inherit;
     width: 100%;
@@ -274,7 +274,6 @@ details p {
 	height: 225px;
 	float: left;
 	margin: 20px;
-	display: flex;
 }
 
 .speak-info {
@@ -295,6 +294,12 @@ details p {
 	background-color: white;
 	padding: 8px;
 	font-style: italic;
+}
+
+.speak-contain {
+	height: 100%;
+	width: 100%;
+	display: flex;
 }
 
 /* Info Section */
@@ -337,7 +342,7 @@ details p {
 
 .map {
 	width: 50%;
-	background-image: url("../images/map.png");
+	background-image: url("../images/map.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -399,6 +404,11 @@ details p {
 		float: none;
 		display: inline-block;
 		white-space: normal;
+	}
+
+	.speak-info {
+		width: 40%;
+		flex: 1;
 	}
 
 	.contact p {
