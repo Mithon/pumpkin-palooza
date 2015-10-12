@@ -98,7 +98,7 @@ img {
 }
 
 .top-info img {
-    height: inherit;
+    height: 320px;
     width: 250px;
     background-color: #fff;
 }
