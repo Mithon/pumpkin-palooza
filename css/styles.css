@@ -86,7 +86,7 @@ header {
 }
 
 img {
-	background-image: url("../images/pumpkin.jpg");
+	background-color: white;
 	background-size: cover;
  	height: 100%;
 }
@@ -235,15 +235,6 @@ img {
 	font-weight: 400;
 }
 
-.speaker-list li {
-	background-color: #F79660;
-	width: 100px;
-	height: 150px;
-	float: left;
-	padding: 30px;
-	margin: 20px;
-}
-
 .d-open:focus ~ .desc {
 	display: block;
 	opacity: 1;
@@ -272,6 +263,38 @@ img {
 details p {
 	font-size: 1.3em;
 	line-height: 1.3;
+}
+
+
+/* Speakers Section */
+
+.speaker-list li {
+	background-color: #F79660;
+	width: 325px;
+	height: 225px;
+	float: left;
+	margin: 20px;
+	display: flex;
+}
+
+.speak-info {
+	padding: 10px;
+}
+
+.speak-info h3 {
+	background-color: white;
+	font-family: "Merriweather", serif;
+	padding: 10px;
+	font-size: 1.3em;
+	line-height: 1.2;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.speak-info p {
+	background-color: white;
+	padding: 8px;
+	font-style: italic;
 }
 
 /* Info Section */
@@ -365,6 +388,7 @@ details p {
 	.list {
 		overflow-x: scroll;
 		white-space: nowrap;
+		padding-left: 0;
 	}
 
 	.desc {
