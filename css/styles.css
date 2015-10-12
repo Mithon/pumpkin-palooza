@@ -244,24 +244,22 @@ img {
 }
 
 .d-open:focus ~ .desc {
-	display: inline-block;
+	display: block;
 }
 
 .desc {
 	padding: 5px;
 	background-color: #fff;
 	display: none;
-	margin-top: 10px;
+	margin-top: 14px;
 }
 
 .d-open {
 	background-color: #fff;
-	padding: 5px 10px;
+	padding: 4px 10px;
 	font-weight: 600;
 	font-size: 0.7em;
-	display: inline-block;
 	max-width: 189px;
-	transition: all 2s ease;
 }
 
 details p {
@@ -363,7 +361,7 @@ details p {
 	}
 
 	.desc {
-		display: inline-block;
+
 	}
 
 	.list li {
