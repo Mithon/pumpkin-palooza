@@ -374,12 +374,16 @@ details p {
 
 @media screen and (max-width: 620px) {
 
-	.pumpkins, .top-info img {
+	.pumpkins {
 		display: none;
 	}
 
 	.about-text {
 		width: 100%;
+	}
+
+	.top-info img {
+		display: none;
 	}
 
 	.top-info ul {
